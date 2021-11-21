@@ -10,15 +10,15 @@ namespace Lesson_9_1
     {
         static void Main(string[] args)
         {
-            double a = 0;
-            double b = 0;
-            double resultat = 0;
+            int a = 0;
+            int b = 0;
+            int resultat = 0;
             int operand = 0;
 
             Console.Write("Введите первое число ");
-            a = Convert.ToDouble(Console.ReadLine());
+            a = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите второе число ");
-            b = Convert.ToDouble(Console.ReadLine());
+            b = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Введите код операции:\n \t 1-сложение \n \t 2-вычитание \n \t 3-произведение\n \t 4-частное");
             operand = Convert.ToInt32(Console.ReadLine());
